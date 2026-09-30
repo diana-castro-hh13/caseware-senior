@@ -1,0 +1,6 @@
+com\caseware\pendingupdates\fanout\InMemoryEngagementStateStore$Row.class
+com\caseware\pendingupdates\fanout\FakeEngagementLoader.class
+com\caseware\pendingupdates\fanout\FanOutWorkerTest.class
+com\caseware\pendingupdates\fanout\InMemoryEngagementStateStore$Status.class
+com\caseware\pendingupdates\fanout\FairWorkQueueTest.class
+com\caseware\pendingupdates\fanout\InMemoryEngagementStateStore.class

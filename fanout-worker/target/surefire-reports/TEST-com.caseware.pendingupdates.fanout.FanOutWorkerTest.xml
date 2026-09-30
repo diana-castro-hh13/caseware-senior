@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.caseware.pendingupdates.fanout.FanOutWorkerTest" time="2.595" tests="10" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\NESLY\Documents\Caseware\Senior Engineer\Version 2.0\caseware-senior\fanout-worker\target\test-classes;C:\Users\NESLY\Documents\Caseware\Senior Engineer\Version 2.0\caseware-senior\fanout-worker\target\classes;C:\Users\NESLY\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.2\junit-jupiter-5.10.2.jar;C:\Users\NESLY\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.2\junit-jupiter-api-5.10.2.jar;C:\Users\NESLY\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\NESLY\.m2\repository\org\junit\platform\junit-platform-commons\1.10.2\junit-platform-commons-1.10.2.jar;C:\Users\NESLY\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\NESLY\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.2\junit-jupiter-params-5.10.2.jar;C:\Users\NESLY\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.2\junit-jupiter-engine-5.10.2.jar;C:\Users\NESLY\.m2\repository\org\junit\platform\junit-platform-engine\1.10.2\junit-platform-engine-1.10.2.jar;"/>
+    <property name="java.vm.vendor" value="Amazon.com Inc."/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://aws.amazon.com/corretto/"/>
+    <property name="user.timezone" value="America/Santiago"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Users\NESLY\.jdks\corretto-21.0.2\bin"/>
+    <property name="sun.java.command" value="C:\Users\NESLY\AppData\Local\Temp\surefire2607496068069247755\surefirebooter-20260929211942889_3.jar C:\Users\NESLY\AppData\Local\Temp\surefire2607496068069247755 2026-09-29T21-19-42_731-jvmRun1 surefire-20260929211942889_1tmp surefire_0-20260929211942889_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\NESLY\Documents\Caseware\Senior Engineer\Version 2.0\caseware-senior\fanout-worker\target\test-classes;C:\Users\NESLY\Documents\Caseware\Senior Engineer\Version 2.0\caseware-senior\fanout-worker\target\classes;C:\Users\NESLY\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.2\junit-jupiter-5.10.2.jar;C:\Users\NESLY\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.2\junit-jupiter-api-5.10.2.jar;C:\Users\NESLY\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\NESLY\.m2\repository\org\junit\platform\junit-platform-commons\1.10.2\junit-platform-commons-1.10.2.jar;C:\Users\NESLY\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\NESLY\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.2\junit-jupiter-params-5.10.2.jar;C:\Users\NESLY\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.2\junit-jupiter-engine-5.10.2.jar;C:\Users\NESLY\.m2\repository\org\junit\platform\junit-platform-engine\1.10.2\junit-platform-engine-1.10.2.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\NESLY"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-01-16"/>
+    <property name="java.home" value="C:\Users\NESLY\.jdks\corretto-21.0.2"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\NESLY\Documents\Caseware\Senior Engineer\Version 2.0\caseware-senior\fanout-worker"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\NESLY\AppData\Local\Temp\surefire2607496068069247755\surefirebooter-20260929211942889_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="21.0.2+13-LTS"/>
+    <property name="user.name" value="NESLY"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Corretto-21.0.2.13.1"/>
+    <property name="localRepository" value="C:\Users\NESLY\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/corretto/corretto-21/issues/"/>
+    <property name="java.io.tmpdir" value="C:\Users\NESLY\AppData\Local\Temp\"/>
+    <property name="idea.version" value="2024.1.1"/>
+    <property name="java.version" value="21.0.2"/>
+    <property name="user.dir" value="C:\Users\NESLY\Documents\Caseware\Senior Engineer\Version 2.0\caseware-senior\fanout-worker"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Users\NESLY\.jdks\corretto-21.0.2\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Amazon Corretto\jdk17.0.19_10\bin;C:\OpenJDK21\jdk-21.0.2\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Gradle\gradle-8.7\bin;C:\Program Files\Amazon\AWSCLIV2\;C:\Program Files\MySQL\MySQL Server 5.7\bin;C:\Program Files\Docker\Docker\resources\bin;C:\Users\NESLY\AppData\Local\Python\pythoncore-3.14-64\Scripts;C:\Program Files\GTK3-Runtime Win64\bin;C:\Program Files\wkhtmltopdf\bin;C:\Program Files\Git\cmd;C:\Users\NESLY\AppData\Local\Microsoft\WindowsApps;C:\Users\NESLY\AppData\Local\Microsoft\WinGet\Packages\Kubernetes.kubectl_Microsoft.Winget.Source_8wekyb3d8bbwe;C:\Users\NESLY\AppData\Local\Programs\cursor\resources\app\bin;C:\Users\NESLY\AppData\Local\Python\bin;C:\Users\NESLY\AppData\Local\Programs\Microsoft VS Code\bin;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Amazon.com Inc."/>
+    <property name="java.vm.version" value="21.0.2+13-LTS"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="pausesWhenTheServiceIsTooBusy" classname="com.caseware.pendingupdates.fanout.FanOutWorkerTest" time="0.399"/>
+  <testcase name="permanentErrorIsNotRetried" classname="com.caseware.pendingupdates.fanout.FanOutWorkerTest" time="0.045"/>
+  <testcase name="temporaryErrorIsRetried" classname="com.caseware.pendingupdates.fanout.FanOutWorkerTest" time="0.12"/>
+  <testcase name="beingToldTooBusyDoesNotUseUpTheRetries" classname="com.caseware.pendingupdates.fanout.FanOutWorkerTest" time="1.308"/>
+  <testcase name="anotherWorkerTakesOverWhenTheFirstOneDiedHoldingTheReservation" classname="com.caseware.pendingupdates.fanout.FanOutWorkerTest" time="0.352"/>
+  <testcase name="sameMessageTwiceDoesNotCheckAFileTwice" classname="com.caseware.pendingupdates.fanout.FanOutWorkerTest" time="0.074">
+    <system-err><![CDATA[Sep 29, 2026 9:19:45 PM com.caseware.pendingupdates.fanout.FanOutWorker onTemplatePublished
+INFO: publish pub-1 audit@CA/v7 -> triggering verification sweep
+Sep 29, 2026 9:19:45 PM com.caseware.pendingupdates.fanout.FanOutWorker onTemplatePublished
+INFO: publish pub-1 audit@CA/v7 -> triggering verification sweep
+]]></system-err>
+  </testcase>
+  <testcase name="skipsAFileThatWasCheckedWhileWaiting" classname="com.caseware.pendingupdates.fanout.FanOutWorkerTest" time="0.002"/>
+  <testcase name="olderAnswerNeverReplacesNewerOne" classname="com.caseware.pendingupdates.fanout.FanOutWorkerTest" time="0.005"/>
+  <testcase name="checksEveryFileWithoutGoingOverTheCallLimit" classname="com.caseware.pendingupdates.fanout.FanOutWorkerTest" time="0.179"/>
+  <testcase name="givesUpAfterThreeTries" classname="com.caseware.pendingupdates.fanout.FanOutWorkerTest" time="0.095"/>
+</testsuite>

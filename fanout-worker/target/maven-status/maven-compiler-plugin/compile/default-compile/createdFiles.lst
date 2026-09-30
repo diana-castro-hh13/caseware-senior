@@ -1,0 +1,14 @@
+com\caseware\pendingupdates\fanout\WorkItem.class
+com\caseware\pendingupdates\fanout\DownstreamException$Kind.class
+com\caseware\pendingupdates\fanout\EngagementRef.class
+com\caseware\pendingupdates\fanout\DownstreamException.class
+com\caseware\pendingupdates\fanout\EngagementStateStore.class
+com\caseware\pendingupdates\fanout\FanOutConfig.class
+com\caseware\pendingupdates\fanout\FanOutWorker$1.class
+com\caseware\pendingupdates\fanout\FairWorkQueue.class
+com\caseware\pendingupdates\fanout\FanOutMetrics.class
+com\caseware\pendingupdates\fanout\FanOutWorker.class
+com\caseware\pendingupdates\fanout\EngagementLoaderClient.class
+com\caseware\pendingupdates\fanout\TemplateBinding.class
+com\caseware\pendingupdates\fanout\TemplatePublished.class
+com\caseware\pendingupdates\fanout\FanOutMetrics$Snapshot.class
